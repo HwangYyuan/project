@@ -1,0 +1,233 @@
+#login-top{
+    color:#787878;
+    background-color:#FAFAFA;
+    .body{
+        width:990px;
+        margin:0 auto;
+        h3{
+            float:left;
+            width:125px;
+            height:30px;
+            line-height:30px;
+            font-size:12px;
+        }
+        li:hover a span{
+            color:#09c;
+            text-decoration:underline;
+        }
+        li:nth-of-type(3):hover i{
+            display:block;
+        }
+        li{
+            float:left;
+            font-size:12px;
+            position:relative;
+            i{
+                display:none;
+                position:absolute;
+                left:-54px;top:25px;
+                width:174px;
+                height:209px;
+                background:url("../img/appcode.png");
+                z-index:8;
+            }
+
+            span{
+                line-height:30px;
+                color:#787878;
+                padding:0 14px 0 12px;
+                border-right:1px solid #DFDFE5;
+            }
+            .last{
+                border-right:0 none;
+            }
+
+        }
+    }
+}
+#login-logo{
+    .container{
+        width:990px;
+        margin:0 auto;
+        .logo-l{
+            height:100px;
+            width:319px;
+            h2{
+                text-indent:-100000px;
+            }
+        }
+        .logo-r{
+            width:311px;
+            height:100px;
+            padding:34px 0;
+        }
+    }
+}
+#login-main{
+    position:relative;
+    background-color:#4EC6F8;
+    .container{
+        padding:90px 0;
+        width:990px;
+        margin:0 auto;
+        img{
+            display:inline-block;
+        }
+    }
+    .container1{
+       position:absolute;
+       top:0;left:136px;
+       padding:90px 0;
+       width:990px;
+       margin:0 auto;
+       .login-vip{
+        width:386px;
+        height:408px;
+        background:white;
+        .login-vip_top{
+            height:99px;
+            padding:0 36px;
+            h2{
+                line-height:99px;
+                display:inline-block;
+                font-size:18px;
+                font-weight:700;
+                color:#666;
+            }
+            span{
+                line-height:99px;
+                float:right;
+                :hover{
+                    text-decoration:underline;
+                }
+                a{
+                    color:#87D4FF;
+                }
+            }
+        }
+        .login-vip_form{
+            height:240px;
+            padding:0 36px;
+            label:nth-of-type(1){
+                position:relative;
+                i{
+                    border-right:1px solid #ccc;
+                    display:block;
+                    width:37px;height:33px;
+                    position:absolute;
+                    left:2px;top:1px;
+                    background:url("../img/sprite.png") 0 0;
+                }
+            }
+            label:nth-of-type(2){
+                position:relative;
+                i{
+                    display:block;
+                    border-right:1px solid #ccc;
+                    width:37px;height:32px;
+                    position:absolute;
+                    left:1px;top:1px;
+                    background:url("../img/sprite.png") -43px 0;
+                }
+            }
+            input:nth-of-type(1),input:nth-of-type(2){
+                width:312px;
+                height:35px;
+                border:1px solid #ccc;
+                margin-bottom:20px;
+                padding-left:60px;
+            }
+            .info{
+                color:#f00;
+                font-size:12px;
+            }
+            span:nth-of-type(1){
+                font-size:14px;
+                color:#000;
+            }
+            span:nth-of-type(2){
+                float:right;
+                font-size:14px;
+                color:#09c;
+            }
+            button{
+                width:312px;
+                height:35px;
+                background:#009DE0;
+                color:#fff;
+                margin-top:25px;
+            }
+        }
+        .login-vip_icon{
+            position:relative;
+            height:70px;
+            padding:30px 36px 10px 36px;
+            span{
+                color:#999999;
+                font-size:12px;
+            }
+            i:nth-of-type(1){
+                display:inline-block;
+                width:25px;
+                height:25px;
+                position:absolute;
+                left:123px;top:29px;
+                background:url("../img/sprite.png") -86px 0;
+            }
+            i:nth-of-type(2){
+                display:inline-block;
+                width:25px;
+                height:25px;
+                position:absolute;
+                left:155px;top:29px;
+                background:url("../img/sprite.png") -120px 0;
+            }
+            i:nth-of-type(3){
+                display:inline-block;
+                width:25px;
+                height:25px;
+                position:absolute;
+                left:185px;top:29px;
+                background:url("../img/sprite.png") -150px 0;
+            }
+            i:nth-of-type(4){
+                display:inline-block;
+                width:25px;
+                height:25px;
+                position:absolute;
+                left:215px;top:29px;
+                background:url("../img/sprite.png") -180px 0;
+            }
+            span:nth-of-type(2){
+                float:right;
+            }
+        }
+    }
+}
+}
+#login-bottom{
+    .container{
+        width:990px;
+        height:105px;
+        padding-top:62px;
+        div:nth-of-type(1){
+            float:left;
+            width:297px;
+            height:8px;
+            border-bottom:1px solid #F0F0F0;
+        }
+        p{
+            padding-left:10px;
+            float:left;
+            font-size:12px;
+            color:#999;
+        }
+        div:nth-of-type(2){
+            float:right;
+            width:297px;
+            height:8px;
+            border-bottom:1px solid #F0F0F0;
+        }
+    }
+}
+

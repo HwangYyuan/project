@@ -1,0 +1,278 @@
+#dp-header-top {
+  color: #787878;
+  background-color: #FAFAFA; }
+  #dp-header-top .body {
+    width: 1190px;
+    margin: 0 auto; }
+    #dp-header-top .body h3 {
+      float: left;
+      width: 125px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 12px; }
+    #dp-header-top .body li {
+      float: left;
+      font-size: 12px;
+      position: relative; }
+      #dp-header-top .body li i {
+        display: none;
+        position: absolute;
+        left: -54px;
+        top: 25px;
+        width: 174px;
+        height: 209px;
+        background: url("../img/appcode.png");
+        z-index: 8; }
+      #dp-header-top .body li span {
+        line-height: 30px;
+        color: #787878;
+        padding: 0 14px 0 12px;
+        border-right: 1px solid #DFDFE5; }
+      #dp-header-top .body li span.last {
+        border-right: 0 none; }
+    #dp-header-top .body li:hover a span {
+      color: #09c;
+      text-decoration: underline; }
+    #dp-header-top .body li:hover i {
+      display: block; }
+
+#dp-header-fixed {
+  background-color: #1D6DAE;
+  width: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  z-index: 70; }
+  #dp-header-fixed .dp-header-l {
+    width: 229px;
+    height: 50px;
+    padding-bottom: 5px; }
+    #dp-header-fixed .dp-header-l h2 {
+      text-indent: -10000px; }
+    #dp-header-fixed .dp-header-l img {
+      margin-top: -20px; }
+  #dp-header-fixed .dp-header-c {
+    width: 842px;
+    padding: 7px 0 7px 242px; }
+    #dp-header-fixed .dp-header-c .wrap {
+      width: 600px;
+      height: 36px;
+      background: #0DA2E1;
+      padding: 2px 1px; }
+      #dp-header-fixed .dp-header-c .wrap input {
+        width: 500px;
+        height: 32px;
+        background: #fff;
+        padding-left: 4px; }
+      #dp-header-fixed .dp-header-c .wrap span {
+        position: relative; }
+        #dp-header-fixed .dp-header-c .wrap span i {
+          display: block;
+          position: absolute;
+          width: 77px;
+          height: 35px;
+          background: url("../img/sprite2.png") 0 -295px;
+          left: 6px;
+          top: -6px; }
+  #dp-header-fixed .dp-header-r {
+    width: 110px;
+    height: 50px;
+    padding: 7px 0; }
+    #dp-header-fixed .dp-header-r .wrap {
+      position: relative;
+      padding: 3px 10px 7px 3px;
+      color: #fff;
+      background: #0DA2E1; }
+      #dp-header-fixed .dp-header-r .wrap i {
+        font-size: 24px;
+        color: #fff;
+        margin-right: 10px; }
+      #dp-header-fixed .dp-header-r .wrap b {
+        color: #fff;
+        text-align: center;
+        line-height: 21px;
+        position: absolute;
+        display: block;
+        width: 28px;
+        height: 21px;
+        background: url("../img/sprite1.png") -49px -51px;
+        left: 9px;
+        top: -9px; }
+
+#dp-header-logo .logo-l {
+  width: 369px;
+  height: 88px; }
+  #dp-header-logo .logo-l h2 {
+    text-indent: -10000px; }
+  #dp-header-logo .logo-l img {
+    margin-top: -20px; }
+
+#dp-header-logo .logo-c1 {
+  width: 329px;
+  padding-top: 14px; }
+
+#dp-header-logo .logo-c2 {
+  width: 385px;
+  padding-top: 10px; }
+  #dp-header-logo .logo-c2 .wrap {
+    height: 34px;
+    padding: 2px 0 2px 2px;
+    background: #009DE0; }
+    #dp-header-logo .logo-c2 .wrap input {
+      width: 307px;
+      height: 30px;
+      padding-left: 3px; }
+    #dp-header-logo .logo-c2 .wrap span {
+      position: relative; }
+      #dp-header-logo .logo-c2 .wrap span i {
+        display: block;
+        position: absolute;
+        width: 77px;
+        height: 35px;
+        background: url("../img/sprite2.png") 0 -295px;
+        left: 6px;
+        top: -6px; }
+
+#dp-header-logo .logo-r {
+  width: 96px;
+  padding: 10px 0; }
+  #dp-header-logo .logo-r .wrap {
+    position: relative;
+    height: 34px;
+    color: #676767;
+    background: #F8F8F8; }
+    #dp-header-logo .logo-r .wrap i {
+      font-size: 24px;
+      color: #CCCCCC;
+      margin-right: 10px; }
+    #dp-header-logo .logo-r .wrap b {
+      color: #fff;
+      text-align: center;
+      line-height: 21px;
+      position: absolute;
+      display: block;
+      width: 28px;
+      height: 21px;
+      background: url("../img/sprite1.png") -49px -51px;
+      left: 0px;
+      top: -16px; }
+
+#dp-header-nav {
+  background: #0099E6; }
+  #dp-header-nav .nav-l {
+    position: relative;
+    width: 220px;
+    height: 39px;
+    background-color: #0086D4; }
+    #dp-header-nav .nav-l span {
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold; }
+    #dp-header-nav .nav-l .second {
+      position: absolute;
+      left: 0;
+      top: 39px;
+      width: 220px;
+      height: 420px;
+      z-index: 49; }
+      #dp-header-nav .nav-l .second .s-wrap:hover {
+        border-left: 5px solid #C926FF;
+        background: #fff; }
+        #dp-header-nav .nav-l .second .s-wrap:hover .third {
+          display: block; }
+      #dp-header-nav .nav-l .second .s-wrap {
+        width: 220px;
+        height: 59px;
+        background: #F1FAFD; }
+        #dp-header-nav .nav-l .second .s-wrap dl {
+          width: 200px;
+          height: 59px;
+          margin: 0 auto;
+          border-bottom: 1px solid #E6E6E6;
+          padding: 10px 13px 0 13px; }
+          #dp-header-nav .nav-l .second .s-wrap dl dt {
+            position: relative;
+            color: #0092D0;
+            font-size: 14px;
+            margin-bottom: 4px;
+            position: relative; }
+          #dp-header-nav .nav-l .second .s-wrap dl dd {
+            float: left;
+            font-size: 12px;
+            color: #C5A4AA;
+            margin-right: 7px; }
+          #dp-header-nav .nav-l .second .s-wrap dl dd:hover {
+            text-decoration: underline;
+            color: #0092D0; }
+          #dp-header-nav .nav-l .second .s-wrap dl dd.last {
+            border-bottom: 0 none; }
+          #dp-header-nav .nav-l .second .s-wrap dl .third {
+            display: none;
+            width: 970px;
+            height: 420px;
+            position: absolute;
+            background: #fff;
+            z-index: 40;
+            left: 220px;
+            top: 0; }
+            #dp-header-nav .nav-l .second .s-wrap dl .third .third-l {
+              width: 770px;
+              height: 420px;
+              padding: 20px 8px 0 8px; }
+              #dp-header-nav .nav-l .second .s-wrap dl .third .third-l dl {
+                width: 360px;
+                float: left;
+                margin-right: 16px; }
+                #dp-header-nav .nav-l .second .s-wrap dl .third .third-l dl dt a {
+                  color: #000; }
+                #dp-header-nav .nav-l .second .s-wrap dl .third .third-l dl dd a {
+                  color: #ccc; }
+                #dp-header-nav .nav-l .second .s-wrap dl .third .third-l dl dd:hover a {
+                  color: #0092D0;
+                  text-decoration: underline; }
+            #dp-header-nav .nav-l .second .s-wrap dl .third .third-r {
+              width: 200px;
+              height: 420px;
+              background: #fff; }
+              #dp-header-nav .nav-l .second .s-wrap dl .third .third-r .bor {
+                width: 200px;
+                height: 240px; }
+                #dp-header-nav .nav-l .second .s-wrap dl .third .third-r .bor h6 {
+                  text-align: center;
+                  color: #ccc; }
+                #dp-header-nav .nav-l .second .s-wrap dl .third .third-r .bor li {
+                  float: left;
+                  border: 1px solid #ccc;
+                  margin: 4px 8px; }
+        #dp-header-nav .nav-l .second .s-wrap dl.last {
+          border-bottom: 0 none; }
+  #dp-header-nav .nav-c {
+    width: 770px; }
+    #dp-header-nav .nav-c ul {
+      height: 39px; }
+      #dp-header-nav .nav-c ul li {
+        float: left;
+        position: relative;
+        padding: 9px 22px; }
+        #dp-header-nav .nav-c ul li a {
+          color: #fff; }
+        #dp-header-nav .nav-c ul li i {
+          display: inline-block;
+          transform: rotate(90deg);
+          color: #fff;
+          font-size: 12px;
+          font-weight: bold; }
+      #dp-header-nav .nav-c ul li:hover i {
+        transform: rotate(270deg); }
+  #dp-header-nav .nav-r {
+    position: relative;
+    width: 200px;
+    height: 39px; }
+  #dp-header-nav .nav-rb {
+    position: absolute;
+    left: 0;
+    top: 39px;
+    width: 200px;
+    height: 420px;
+    z-index: 40; }

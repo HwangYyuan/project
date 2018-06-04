@@ -1,0 +1,240 @@
+.dp_top{
+    .body{
+        width:1190px;
+        margin:0 auto;
+        h3{
+            float:left;
+            width:125px;
+            height:30px;
+            line-height:30px;
+            font-size:12px;
+        }
+        li:hover a span{
+            color:#09c;
+            text-decoration:underline;
+        }
+        li:nth-of-type(3):hover i{
+            display:block;
+        }
+        li{
+            float:left;
+            font-size:12px;
+            position:relative;
+            i{
+                display:none;
+                position:absolute;
+                left:-54px;top:25px;
+                width:174px;
+                height:209px;
+                background:url("../img/appcode.png");
+                z-index:8;
+            }
+            span{
+                line-height:30px;
+                color:#787878;
+                padding:0 14px 0 12px;
+                border-right:1px solid #DFDFE5;
+            }
+            .last{
+                border-right:0 none;
+            }   
+        }
+    }
+}
+.dp_bottom{
+    background:#F5F5F5;
+    .carlist{
+        padding-top:30px;
+        span{
+            display:inline-block;
+            width:80px;
+            height:26px;
+            text-align:center;
+            line-height:26px;
+            color:#fff;
+            background:#00A4ED;
+            border-radius:0 5px 0 0;
+        }
+        .item{
+            height:40px;
+            background:#fff;
+            text-align:center;
+            line-height:40px;
+            padding:0 60px;
+            .pho{
+                width:80px;
+                height:40px;
+            }
+            .biao{
+                width:272px;
+                height:40px;
+            }
+            .heig{
+                width:194px;
+                height:40px;
+            }
+            .qian{
+                width:194px;
+                height:40px;
+            }
+            .shuli{
+                width:135px;
+                height:40px;
+            }
+            .jisuan{
+                width:134px;
+                height:40px;
+            }
+            .do{
+                height:40px;
+            }
+        }
+        .item-b{
+            margin-top:20px;
+            li{
+                height:197px;
+                background:#fff;
+                margin-top:20px;
+                padding:0 30px;
+                .li-t{
+                    position:relative;
+                    height:40px;
+                    line-height:40px;
+                    b{
+                        color:#333;
+                        border-radius:0 none;
+                        margin-left:40px;
+                    }
+                }
+                .li-c{
+                    border-top:1px solid #DDDDDD;
+                    padding:16px 34px;
+                    
+                    .photo{
+                        width:80px;
+                        height:80px;
+
+                        border:1px solid #ddd;
+                    }
+                    .biaoti{
+                        width:272px;
+                        height:80px;
+                        line-height:20px;
+                        text-align:center;
+                        padding-left:20px;
+                    }
+                    .height{
+                        width:194px;
+                        height:80px;
+                        line-height:80px;
+                        text-align:center;
+                    }
+                    .yuan{
+                        width:194px;
+                        height:80px;
+                        line-height:80px;
+                        text-align:center;
+                    }
+                    .xiaoji{
+                        width:135px;
+                        height:80px;
+                        line-height:80px;
+                        text-align:center;
+                    }
+                    .caozuo{
+                        height:80px;
+                        line-height:80px;
+                        text-align:center;
+                    }
+                    .shul{
+                        width:134px;
+                        height:80px;
+
+                        // text-align:0;
+                        // line-height:0;
+                        .num{
+                            display:inline-block;
+                            width:102px;
+                            height:27px;
+                            border:1px solid #aaa;
+                            margin-top:30px;
+                            .btnJian{
+                                display:inline-block;
+                                width:25px;
+                                height:25px;
+                                border:1px solid #aaa;
+                                text-align:center;
+                                color:#aaa;
+                            }
+                            .btnJia{
+                             display:inline-block;
+                             width:25px;
+                             height:25px;
+                             border:1px solid #aaa;
+                             text-align:center;
+                             color:#aaa;
+                         }
+                         input{
+                            width:40px;
+                            text-align:center;
+                            color:#000;
+                            font-weight:bold;
+                        }
+                    }
+                }
+
+            }
+            .li-b{
+                    height:45px;
+                    border-top:1px solid #ddd;
+                    text-align:right;
+                    line-height:45px;
+                    i{
+                        color:#4FC73B;
+                    }
+                }
+        }
+
+    }
+     .result{
+            background:#fff;
+            margin-top:20px;
+            .result-l{
+                width:1046px;
+                height:72px;
+                padding:0 20px;
+                .result-lt{
+                    text-align:right;
+                    height:36px;
+                    line-height:36px;
+                    .mony{
+                        color:#ff4444;
+                    }
+                    .allgoods{
+                        display:inline-block;
+                        b{
+                            color:#ff4444;
+                        }
+                    }
+                    .countNum{
+                        display:inline-block;
+                    }
+                }
+                .result-lb{
+                    height:36px;
+                    text-align:right;
+                }
+            }
+            .result-r{
+                width:144px;
+                padding:12px 0;
+                button{
+                    width:120px;
+                    height:48px;
+                    color:#fff;
+                    background:#ff4444;
+                }
+            }
+        }
+    }
+}

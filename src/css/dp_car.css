@@ -1,0 +1,186 @@
+.dp_top .body {
+  width: 1190px;
+  margin: 0 auto; }
+  .dp_top .body h3 {
+    float: left;
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px; }
+  .dp_top .body li:hover a span {
+    color: #09c;
+    text-decoration: underline; }
+  .dp_top .body li:nth-of-type(3):hover i {
+    display: block; }
+  .dp_top .body li {
+    float: left;
+    font-size: 12px;
+    position: relative; }
+    .dp_top .body li i {
+      display: none;
+      position: absolute;
+      left: -54px;
+      top: 25px;
+      width: 174px;
+      height: 209px;
+      background: url("../img/appcode.png");
+      z-index: 8; }
+    .dp_top .body li span {
+      line-height: 30px;
+      color: #787878;
+      padding: 0 14px 0 12px;
+      border-right: 1px solid #DFDFE5; }
+    .dp_top .body li .last {
+      border-right: 0 none; }
+
+.dp_bottom {
+  background: #F5F5F5; }
+  .dp_bottom .carlist {
+    padding-top: 30px; }
+    .dp_bottom .carlist span {
+      display: inline-block;
+      width: 80px;
+      height: 26px;
+      text-align: center;
+      line-height: 26px;
+      color: #fff;
+      background: #00A4ED;
+      border-radius: 0 5px 0 0; }
+    .dp_bottom .carlist .item {
+      height: 40px;
+      background: #fff;
+      text-align: center;
+      line-height: 40px;
+      padding: 0 60px; }
+      .dp_bottom .carlist .item .pho {
+        width: 80px;
+        height: 40px; }
+      .dp_bottom .carlist .item .biao {
+        width: 272px;
+        height: 40px; }
+      .dp_bottom .carlist .item .heig {
+        width: 194px;
+        height: 40px; }
+      .dp_bottom .carlist .item .qian {
+        width: 194px;
+        height: 40px; }
+      .dp_bottom .carlist .item .shuli {
+        width: 135px;
+        height: 40px; }
+      .dp_bottom .carlist .item .jisuan {
+        width: 134px;
+        height: 40px; }
+      .dp_bottom .carlist .item .do {
+        height: 40px; }
+    .dp_bottom .carlist .item-b {
+      margin-top: 20px; }
+      .dp_bottom .carlist .item-b li {
+        height: 197px;
+        background: #fff;
+        margin-top: 20px;
+        padding: 0 30px; }
+        .dp_bottom .carlist .item-b li .li-t {
+          position: relative;
+          height: 40px;
+          line-height: 40px; }
+          .dp_bottom .carlist .item-b li .li-t b {
+            color: #333;
+            border-radius: 0 none;
+            margin-left: 40px; }
+        .dp_bottom .carlist .item-b li .li-c {
+          border-top: 1px solid #DDDDDD;
+          padding: 16px 34px; }
+          .dp_bottom .carlist .item-b li .li-c .photo {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #ddd; }
+          .dp_bottom .carlist .item-b li .li-c .biaoti {
+            width: 272px;
+            height: 80px;
+            line-height: 20px;
+            text-align: center;
+            padding-left: 20px; }
+          .dp_bottom .carlist .item-b li .li-c .height {
+            width: 194px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center; }
+          .dp_bottom .carlist .item-b li .li-c .yuan {
+            width: 194px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center; }
+          .dp_bottom .carlist .item-b li .li-c .xiaoji {
+            width: 135px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center; }
+          .dp_bottom .carlist .item-b li .li-c .caozuo {
+            height: 80px;
+            line-height: 80px;
+            text-align: center; }
+          .dp_bottom .carlist .item-b li .li-c .shul {
+            width: 134px;
+            height: 80px; }
+            .dp_bottom .carlist .item-b li .li-c .shul .num {
+              display: inline-block;
+              width: 102px;
+              height: 27px;
+              border: 1px solid #aaa;
+              margin-top: 30px; }
+              .dp_bottom .carlist .item-b li .li-c .shul .num .btnJian {
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                border: 1px solid #aaa;
+                text-align: center;
+                color: #aaa; }
+              .dp_bottom .carlist .item-b li .li-c .shul .num .btnJia {
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                border: 1px solid #aaa;
+                text-align: center;
+                color: #aaa; }
+              .dp_bottom .carlist .item-b li .li-c .shul .num input {
+                width: 40px;
+                text-align: center;
+                color: #000;
+                font-weight: bold; }
+        .dp_bottom .carlist .item-b li .li-b {
+          height: 45px;
+          border-top: 1px solid #ddd;
+          text-align: right;
+          line-height: 45px; }
+          .dp_bottom .carlist .item-b li .li-b i {
+            color: #4FC73B; }
+    .dp_bottom .carlist .result {
+      background: #fff;
+      margin-top: 20px; }
+      .dp_bottom .carlist .result .result-l {
+        width: 1046px;
+        height: 72px;
+        padding: 0 20px; }
+        .dp_bottom .carlist .result .result-l .result-lt {
+          text-align: right;
+          height: 36px;
+          line-height: 36px; }
+          .dp_bottom .carlist .result .result-l .result-lt .mony {
+            color: #ff4444; }
+          .dp_bottom .carlist .result .result-l .result-lt .allgoods {
+            display: inline-block; }
+            .dp_bottom .carlist .result .result-l .result-lt .allgoods b {
+              color: #ff4444; }
+          .dp_bottom .carlist .result .result-l .result-lt .countNum {
+            display: inline-block; }
+        .dp_bottom .carlist .result .result-l .result-lb {
+          height: 36px;
+          text-align: right; }
+      .dp_bottom .carlist .result .result-r {
+        width: 144px;
+        padding: 12px 0; }
+        .dp_bottom .carlist .result .result-r button {
+          width: 120px;
+          height: 48px;
+          color: #fff;
+          background: #ff4444; }
